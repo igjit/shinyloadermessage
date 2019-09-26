@@ -1,0 +1,22 @@
+.shinyloadermessage-container {
+  position: relative;
+}
+
+.shinyloadermessage-container .recalculating {
+  opacity: 1;
+}
+
+.shinyloadermessage-message {
+  visibility: hidden;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  padding: 0.4em 0.8em;
+  border-radius: 0.2em;
+  background: rgba(220, 220, 220, 0.5);
+}
+
+.recalculating + .shinyloadermessage-message {
+  visibility: visible;
+}
