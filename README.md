@@ -5,6 +5,8 @@
 
 Add loader messages to Shiny Outputs.
 
+![Screenshot](man/figures/screenshot.png)
+
 ## Installation
 
 You can install shinyloadermessage from github with:
